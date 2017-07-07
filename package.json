@@ -1,0 +1,31 @@
+{
+  "name": "useless-module",
+  "version": "1.0.3",
+  "description": "useless module for npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idrayv/useless-module.git"
+  },
+  "keywords": [
+    "useless"
+  ],
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "author": "Maksym Shchyhol <drayv.mj12@gmail.com> (github.com/idrayv)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idrayv/useless-module/issues"
+  },
+  "homepage": "https://github.com/idrayv/useless-module#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  }
+}
