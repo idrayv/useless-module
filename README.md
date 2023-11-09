@@ -11,10 +11,7 @@ Another useless module for npm
 
 ## Usage
 
-    var uselessModule = require('useless-module');
-    var uselessString = uselessModule();
-  
-  Output should be `It's useless!`
+Please don't.
 
 ## Tests
 
